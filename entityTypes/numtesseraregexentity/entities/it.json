@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "^\\d{8}$",
+    "synonyms": [ "^\\d{8}$" ],
+    "languageCode": "it"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "129d92fb-add9-4bf0-a000-8a8cc7ad1e09",
+  "displayName": "AbbonamentoMensilePage",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Abbonamento mensile page" ]
+      },
+      "languageCode": "it"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "SingoloTitoloPage",
+    "name": "0609f71a-4eb0-4802-a9b7-b4671654d110"
+  } ]
+}

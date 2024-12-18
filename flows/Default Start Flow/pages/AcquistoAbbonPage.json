@@ -1,0 +1,15 @@
+{
+  "name": "e70653bd-a6ba-416e-811f-722d30b14889",
+  "displayName": "AcquistoAbbonPage",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Sei nella pagina acquista abbonamento" ]
+      },
+      "languageCode": "it"
+    } ]
+  }
+}

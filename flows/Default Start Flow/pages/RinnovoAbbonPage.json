@@ -1,0 +1,15 @@
+{
+  "name": "eb3bcc3d-6708-4f9a-b009-7efbdf5e49a1",
+  "displayName": "RinnovoAbbonPage",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "sei nella pagina per il rinnovo" ]
+      },
+      "languageCode": "it"
+    } ]
+  }
+}

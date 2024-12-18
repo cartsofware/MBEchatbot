@@ -1,0 +1,12 @@
+{
+  "displayName": "MBEChatbot",
+  "defaultLanguageCode": "it",
+  "timeZone": "Europe/Madrid",
+  "projectNumber": 686151178920,
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  }
+}

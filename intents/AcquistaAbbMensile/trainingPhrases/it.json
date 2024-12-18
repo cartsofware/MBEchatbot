@@ -1,0 +1,45 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "acquista ",
+      "auto": true
+    }, {
+      "text": "titolo",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    }, {
+      "text": " mensile",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "acquista ",
+      "auto": true
+    }, {
+      "text": "tessera",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    }, {
+      "text": " mensile",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "acquista ",
+      "auto": true
+    }, {
+      "text": "abbonamento",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    }, {
+      "text": " mensile",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  } ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "775c675a-b211-44da-8645-1072c604f854",
+  "displayName": "RaccogliNumTesseraPage",
+  "form": {
+    "parameters": [ {
+      "displayName": "num_tessera",
+      "required": true,
+      "entityType": "@numtesseraregexentity",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "qual è il tuo numero di tessera" ]
+      },
+      "languageCode": "it"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RaccogliCognomePage",
+    "name": "b866b807-58d6-44b6-b1b9-9000588d9b30"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "4a816aa7-f3fc-4a39-bcad-b97d9b3f7177",
+  "displayName": "MoltepliciTitoliPage",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Vuoi acquistare abbonamento annuale, abbonamento mensile o carnet biglietti? $session.params.totale_abbonamenti -1" ]
+      },
+      "languageCode": "it"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "AcquistaAbbAnnuale",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AbbonamentoAnnualePage",
+    "name": "c0c1f7e4-3ca3-46da-8098-5894cf41209c"
+  }, {
+    "intent": "AcquistaAbbMensile",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AbbonamentoMensilePage",
+    "name": "b8ca81c4-a682-4ab7-b125-581cc294b165"
+  }, {
+    "intent": "AcquistaCarnetIntent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "CarnetPage",
+    "name": "0b0e7278-95df-4483-a62d-62c9b345679e"
+  } ]
+}

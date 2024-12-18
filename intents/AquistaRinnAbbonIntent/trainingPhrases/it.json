@@ -1,0 +1,87 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "acquista ",
+      "auto": true
+    }, {
+      "text": "un"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "abbonamento",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "rinnova la mia ",
+      "auto": true
+    }, {
+      "text": "tessera",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "acquista una "
+    }, {
+      "text": "tessera",
+      "parameterId": "abbonamentoentity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "voglio rinnovare il mio "
+    }, {
+      "text": "titolo",
+      "parameterId": "abbonamentoentity"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "voglio acquistare ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "titolo",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "voglio acquistare l'",
+      "auto": true
+    }, {
+      "text": "abbonamento",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "voglio rinnovare l'",
+      "auto": true
+    }, {
+      "text": "abbonamento",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  } ]
+}

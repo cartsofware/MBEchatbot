@@ -1,0 +1,10 @@
+{
+  "name": "3bc21543-2149-4198-823b-1debc76a3eef",
+  "displayName": "AcquistaAbbMensile",
+  "parameters": [ {
+    "id": "abbonamentoentity",
+    "entityType": "@AbbonamentoEntity"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

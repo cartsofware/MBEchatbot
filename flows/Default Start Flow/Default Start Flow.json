@@ -1,0 +1,57 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ciao!", "Buongiorno!" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "4b9493bb-ac45-452f-aeb1-8acf37a40c7d"
+  }, {
+    "intent": "AquistaRinnAbbonIntent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RaccogliNumTesseraPage",
+    "name": "7368d946-3d8f-4a65-8a67-291297fc60ef"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "f07bb2b4-35d1-486e-8afb-9a39c98f723c"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Non penso di seguirti. Potresti ripetere?", "Potresti dirlo ancora una volta?", "Potresti essere più specifico?", "Non ho capito bene. Potresti ripetere?", "Non ti ho sentito bene. Puoi ripetere?" ]
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "1e0822d6-c91c-4125-854a-038520dd1f17"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "41e22419-2edc-4d97-b332-171c8b212918",
+    "languageCode": "it"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "f110aaa7-66f4-449e-8a78-40ac16699dbf",
+  "displayName": "AquistaRinnAbbonIntent",
+  "parameters": [ {
+    "id": "abbonamentoentity",
+    "entityType": "@AbbonamentoEntity"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

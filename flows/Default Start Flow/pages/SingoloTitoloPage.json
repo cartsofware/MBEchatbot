@@ -1,0 +1,30 @@
+{
+  "name": "a2ac3429-ff70-4017-abf6-7389f2aeb4d4",
+  "displayName": "SingoloTitoloPage",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "sei nella pagina per il singolo abbonamento" ]
+      },
+      "languageCode": "it"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.titles.validita = \"NULL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "AcquistoAbbonPage",
+    "name": "018483b6-63f5-44c1-952d-d4bce83dcb3f"
+  }, {
+    "condition": "$session.params.titles[0].validita != \"NULL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "RinnovoAbbonPage",
+    "name": "0f692a7b-5637-4fd2-a37b-7e51629b0133"
+  } ]
+}

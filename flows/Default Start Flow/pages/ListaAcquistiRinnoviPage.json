@@ -1,0 +1,41 @@
+{
+  "name": "3777fd4c-e8c4-4cfb-99fa-54371eaea938",
+  "displayName": "ListaAcquistiRinnoviPage",
+  "form": {
+    "parameters": [ {
+      "displayName": "listaabbonparam",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Questa è la lista dei tuoi titoli" ]
+      },
+      "languageCode": "it"
+    } ],
+    "webhook": "verify_tessera",
+    "tag": "listawebhook"
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.totale_abbonamenti = 1",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "SingoloTitoloPage",
+    "name": "e6101266-ea30-42cf-9486-5218f0884c5c"
+  }, {
+    "condition": "$session.params.totale_abbonamenti \u003e 1",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "MoltepliciTitoliPage",
+    "name": "84c54943-8e8f-481a-b918-a946b81431df"
+  } ]
+}

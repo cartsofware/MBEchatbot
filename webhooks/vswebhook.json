@@ -1,0 +1,12 @@
+{
+  "name": "74032e7b-b592-446b-98a0-954a0fcaff74",
+  "displayName": "vswebhook",
+  "genericWebService": {
+    "uri": "https://2e98-93-65-142-236.ngrok-free.app/createreservation ",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "b19a871e-b95d-41ce-8c3d-8cff315735ab",
+  "displayName": "RaccogliCognomePage",
+  "form": {
+    "parameters": [ {
+      "displayName": "cognome_tessera",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "mi puoi dire il tuo cognome?" ]
+      },
+      "languageCode": "it"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.cognome_tessera != \"NULL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ListaAcquistiRinnoviPage",
+    "name": "89d34dda-9c2e-4057-aacf-74fe2449b1f4"
+  } ]
+}

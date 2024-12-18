@@ -1,0 +1,48 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "il numero della mia ",
+      "auto": true
+    }, {
+      "text": "tessera",
+      "parameterId": "abbonamentoentity",
+      "auto": true
+    }, {
+      "text": " è ",
+      "auto": true
+    }, {
+      "text": "12345678",
+      "parameterId": "number-sequence"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "il numero è ",
+      "auto": true
+    }, {
+      "text": "12345678",
+      "parameterId": "number-sequence"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "il numero del mio abbonamento è "
+    }, {
+      "text": "12345678",
+      "parameterId": "number-sequence"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "il numero del mio titolo è "
+    }, {
+      "text": "12345678",
+      "parameterId": "number-sequence"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  } ]
+}
