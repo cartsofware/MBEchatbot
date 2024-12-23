@@ -5,22 +5,17 @@
   
   },
   "entryFulfillment": {
-    "messages": [ {
-      "text": {
-        "text": [ "sei nella pagina per il singolo abbonamento" ]
-      },
-      "languageCode": "it"
-    } ]
+  
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.titles.validita = \"NULL\"",
+    "condition": "$session.params.validita = \"\"",
     "triggerFulfillment": {
     
     },
     "targetPage": "AcquistoAbbonPage",
     "name": "018483b6-63f5-44c1-952d-d4bce83dcb3f"
   }, {
-    "condition": "$session.params.titles[0].validita != \"NULL\"",
+    "condition": "$session.params.validita != \"NULL\"",
     "triggerFulfillment": {
     
     },
