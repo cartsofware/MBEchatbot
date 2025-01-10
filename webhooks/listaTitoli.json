@@ -2,7 +2,7 @@
   "name": "224c13fc-e8bf-49dc-9d46-e1ae786b3a82",
   "displayName": "listaTitoli",
   "genericWebService": {
-    "uri": "https://2e98-93-65-142-236.ngrok-free.app/lista_titoli",
+    "uri": "https://8990-93-65-142-236.ngrok-free.app/lista_titoli",
     "webhookType": "STANDARD",
     "serviceAgentAuth": "NONE"
   },

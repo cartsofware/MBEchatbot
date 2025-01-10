@@ -5,21 +5,28 @@
   
   },
   "entryFulfillment": {
-  
+    "messages": [ {
+      "text": {
+        "text": [ "pagina singolo titolo" ]
+      },
+      "languageCode": "it"
+    } ],
+    "webhook": "listaTitoli",
+    "tag": "singles"
   },
   "transitionRoutes": [ {
     "condition": "$session.params.validita = \"\"",
     "triggerFulfillment": {
     
     },
-    "targetPage": "AcquistoAbbonPage",
+    "targetPage": "SingoloAcquistoPage",
     "name": "018483b6-63f5-44c1-952d-d4bce83dcb3f"
   }, {
     "condition": "$session.params.validita != \"NULL\"",
     "triggerFulfillment": {
     
     },
-    "targetPage": "RinnovoAbbonPage",
+    "targetPage": "SingoloRinnovoPage",
     "name": "0f692a7b-5637-4fd2-a37b-7e51629b0133"
   } ]
 }

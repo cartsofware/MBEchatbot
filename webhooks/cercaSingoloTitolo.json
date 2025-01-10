@@ -1,0 +1,12 @@
+{
+  "name": "b2fb0e1d-d46e-4ba0-9d57-fa84b4b3cffa",
+  "displayName": "cercaSingoloTitolo",
+  "genericWebService": {
+    "uri": "https://8990-93-65-142-236.ngrok-free.app/cercaSingoloTitolo",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

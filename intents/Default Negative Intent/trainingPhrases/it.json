@@ -1,6 +1,20 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "termina",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "basta",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
       "text": "negativo",
       "auto": true
     } ],

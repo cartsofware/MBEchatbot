@@ -3,5 +3,5 @@
   "displayName": "Default Negative Intent",
   "priority": 500000,
   "isFallback": true,
-  "numTrainingPhrases": 2
+  "numTrainingPhrases": 4
 }

@@ -7,7 +7,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Ciao!", "Buongiorno!" ]
+          "text": [ "Ciao! Vuoi acquistare o rinnovare il tuo abbonamento?", "Buongiorno! Vuoi acquistare o rinnovare il tuo abbonamento?" ]
         },
         "languageCode": "it"
       } ]

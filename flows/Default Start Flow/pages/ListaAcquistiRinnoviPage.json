@@ -14,12 +14,6 @@
     } ]
   },
   "entryFulfillment": {
-    "messages": [ {
-      "text": {
-        "text": [ "Questa è la lista dei tuoi titoli" ]
-      },
-      "languageCode": "it"
-    } ],
     "webhook": "verify_tessera",
     "tag": "listawebhook"
   },
@@ -37,5 +31,18 @@
     },
     "targetPage": "MoltepliciTitoliPage",
     "name": "84c54943-8e8f-481a-b918-a946b81431df"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "026b5d6e-df9a-47fe-afbe-6c26d08ce365"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "ed0c8df1-d084-4639-8d2f-fa04a3cf6b8f"
   } ]
 }
