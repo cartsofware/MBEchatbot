@@ -11,5 +11,13 @@
       },
       "languageCode": "it"
     } ]
-  }
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "9b7dd53d-d1c9-4910-85ea-28d0f91d8551"
+  } ]
 }

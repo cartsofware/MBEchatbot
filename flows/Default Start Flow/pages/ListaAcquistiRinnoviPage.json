@@ -18,11 +18,16 @@
     "tag": "listawebhook"
   },
   "transitionRoutes": [ {
-    "condition": "$session.params.totale_abbonamenti = 1",
+    "condition": "$session.params.totale_abbonamenti = 0",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Non ci sono abbonamenti!!!!!" ]
+        },
+        "languageCode": "it"
+      } ]
     },
-    "targetPage": "SingoloTitoloPage",
+    "targetPage": "RaccogliNumTesseraPage",
     "name": "e6101266-ea30-42cf-9486-5218f0884c5c"
   }, {
     "condition": "$session.params.totale_abbonamenti \u003e 1",
@@ -31,6 +36,13 @@
     },
     "targetPage": "MoltepliciTitoliPage",
     "name": "84c54943-8e8f-481a-b918-a946b81431df"
+  }, {
+    "condition": "$session.params.totale_abbonamenti = 1",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "SingoloTitoloPage",
+    "name": "debee917-62fe-44d0-9211-79174cc278cc"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

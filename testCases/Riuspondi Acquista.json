@@ -1,0 +1,63 @@
+{
+  "name": "bca213c1-3c6e-4db5-bd67-40b134656efa",
+  "displayName": "Riuspondi Acquista",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ciao"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "43e6ddec-8c9d-4bbf-bb26-90882d170355",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Ciao! Vuoi acquistare o rinnovare il tuo abbonamento?" ]
+      }, {
+        "text": [ "Ciao inizio subito!!!!!!!!!!" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "acquistare"
+        },
+        "languageCode": "it"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "43e6ddec-8c9d-4bbf-bb26-90882d170355",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Potresti essere più specifico?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1736960871,
+    "nanos": 544811000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "it"
+}
