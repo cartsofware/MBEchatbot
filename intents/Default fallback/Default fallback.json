@@ -1,0 +1,11 @@
+{
+  "name": "00000000-0000-0000-0000-000000000001",
+  "displayName": "Default fallback",
+  "parameters": [ {
+    "id": "location",
+    "entityType": "@sys.location"
+  } ],
+  "priority": 500000,
+  "isFallback": true,
+  "numTrainingPhrases": 3
+}

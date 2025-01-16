@@ -1,29 +1,19 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "basta",
-      "auto": true
+      "text": "Non sono sicuro di aver capito"
     } ],
     "repeatCount": 1,
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "termina",
-      "auto": true
+      "text": "Puoi ripetere?"
     } ],
     "repeatCount": 1,
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "negativo",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "it"
-  }, {
-    "parts": [ {
-      "text": "no",
-      "auto": true
+      "text": "Non capisco"
     } ],
     "repeatCount": 1,
     "languageCode": "it"

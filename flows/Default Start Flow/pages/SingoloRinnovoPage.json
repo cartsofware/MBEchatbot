@@ -13,11 +13,18 @@
     } ]
   },
   "transitionRoutes": [ {
-    "condition": "true",
+    "intent": "Default Affermative intent",
     "triggerFulfillment": {
     
     },
-    "targetPage": "End Session",
-    "name": "1ca8bee5-cde2-43a1-80f6-a313a10cc5ac"
+    "targetPage": "PagamentoPage",
+    "name": "49c0a19a-fea2-4780-b884-a84fb50e855c"
+  }, {
+    "intent": "Default Negative Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "PassaOperatorePage",
+    "name": "776ad2b9-2cc4-4da4-b086-ac1ff6d8258d"
   } ]
 }

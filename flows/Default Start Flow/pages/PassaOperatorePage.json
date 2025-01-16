@@ -1,15 +1,17 @@
 {
   "name": "dee5ffda-1a95-4514-ab49-16ee23ba7ff4",
-  "displayName": "FinalPage",
+  "displayName": "PassaOperatorePage",
   "form": {
   
   },
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Complimenti hai acquistato / rinnovato il tuo abbonamento" ]
+        "text": [ "Passa ad operatore" ]
       },
       "languageCode": "it"
-    } ]
+    } ],
+    "webhook": "PassaOperatoreWebhook",
+    "tag": "passaOperatoreWebhook"
   }
 }

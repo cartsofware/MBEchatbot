@@ -16,7 +16,7 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "mi puoi dire il tuo cognome?" ]
+        "text": [ "la tessera è $session.params.num_tessera mi puoi dire il tuo cognome?" ]
       },
       "languageCode": "it"
     } ]

@@ -1,60 +1,71 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "posso acquistare un abbonamento mensile?"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "it"
-  }, {
-    "parts": [ {
-      "text": "vorrei sottoscrivere un abbonamento mensile"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "it"
-  }, {
-    "parts": [ {
-      "text": "voglio comprare un abbonamento mensile"
-    } ],
-    "repeatCount": 1,
-    "languageCode": "it"
-  }, {
-    "parts": [ {
-      "text": "acquista ",
+      "text": "passami ",
       "auto": true
     }, {
-      "text": "titolo",
-      "parameterId": "abbonamentoentity",
+      "text": "un",
       "auto": true
     }, {
-      "text": " mensile",
+      "text": " umano",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "acquista ",
+      "text": "mi ",
       "auto": true
     }, {
-      "text": "tessera",
-      "parameterId": "abbonamentoentity",
+      "text": "passi",
       "auto": true
     }, {
-      "text": " mensile",
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " operatore",
       "auto": true
     } ],
     "repeatCount": 1,
     "languageCode": "it"
   }, {
     "parts": [ {
-      "text": "acquista ",
+      "text": "vorrei parlare con ",
       "auto": true
     }, {
-      "text": "abbonamento",
-      "parameterId": "abbonamentoentity",
+      "text": "una",
       "auto": true
     }, {
-      "text": " mensile",
+      "text": " persona",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "passami ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " operatore",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "it"
+  }, {
+    "parts": [ {
+      "text": "voglio parlare con ",
+      "auto": true
+    }, {
+      "text": "un",
+      "auto": true
+    }, {
+      "text": " operatore",
       "auto": true
     } ],
     "repeatCount": 1,

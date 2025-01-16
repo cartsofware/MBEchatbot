@@ -1,0 +1,12 @@
+{
+  "name": "6a95062b-4879-463b-b9f9-1f78db3f4ea2",
+  "displayName": "PassaOperatoreWebhook",
+  "genericWebService": {
+    "uri": "https://8990-93-65-142-236.ngrok-free.app/passaOperatore",
+    "webhookType": "STANDARD",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

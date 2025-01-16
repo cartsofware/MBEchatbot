@@ -4,7 +4,10 @@
   "parameters": [ {
     "id": "abbonamentoentity",
     "entityType": "@AbbonamentoEntity"
+  }, {
+    "id": "location",
+    "entityType": "@sys.location"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 3
+  "numTrainingPhrases": 6
 }

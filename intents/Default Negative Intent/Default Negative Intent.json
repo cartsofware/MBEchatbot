@@ -1,7 +1,6 @@
 {
-  "name": "00000000-0000-0000-0000-000000000001",
+  "name": "123f9298-e8ef-49b7-9721-11d6559a82b5",
   "displayName": "Default Negative Intent",
   "priority": 500000,
-  "isFallback": true,
   "numTrainingPhrases": 4
 }

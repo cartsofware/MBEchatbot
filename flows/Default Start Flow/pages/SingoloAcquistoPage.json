@@ -13,6 +13,20 @@
     } ]
   },
   "transitionRoutes": [ {
+    "intent": "Default Affermative intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "PagamentoPage",
+    "name": "c6a4718a-bc97-4fef-a053-ca08d8667abd"
+  }, {
+    "intent": "Default Negative Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "9067a8f0-71c0-4c2c-b2e8-8e0bf9e4a5c8"
+  }, {
     "condition": "true",
     "triggerFulfillment": {
     

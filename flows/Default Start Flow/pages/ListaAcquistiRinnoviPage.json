@@ -25,6 +25,13 @@
           "text": [ "Non ci sono abbonamenti!!!!!" ]
         },
         "languageCode": "it"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "$session.params.num_tessera",
+        "value": null
+      }, {
+        "parameter": "$session.params.cognome_tessera",
+        "value": null
       } ]
     },
     "targetPage": "RaccogliNumTesseraPage",
