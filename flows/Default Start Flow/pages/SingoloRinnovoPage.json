@@ -17,7 +17,7 @@
     "triggerFulfillment": {
     
     },
-    "targetPage": "End Session",
+    "targetPage": "FinalPage",
     "name": "1ca8bee5-cde2-43a1-80f6-a313a10cc5ac"
   } ]
 }
