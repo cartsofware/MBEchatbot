@@ -15,6 +15,29 @@
     "tag": "singles"
   },
   "transitionRoutes": [ {
+    "intent": "HandoffToHuman",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "message": "our agents will get back to you",
+          "metadata": {
+            "KM_ASSIGN_TO": ""
+          },
+          "platform": "kommunicate"
+        },
+        "languageCode": "it"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "f1e1c532-9167-45a8-9f95-e34236caca68"
+  }, {
     "condition": "$session.params.validita = \"\"",
     "triggerFulfillment": {
     

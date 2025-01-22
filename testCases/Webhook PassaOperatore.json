@@ -1,37 +1,12 @@
 {
-  "name": "d36908ed-d72f-4399-b017-10de3f5f553a",
-  "displayName": "passa a operatore",
+  "name": "28fe35c9-e041-453a-87e8-4056361fd1d9",
+  "displayName": "Webhook PassaOperatore",
   "testCaseConversationTurns": [ {
     "userInput": {
       "isWebhookEnabled": true,
       "input": {
         "text": {
-          "text": "ciao"
-        },
-        "languageCode": "it"
-      }
-    },
-    "virtualAgentOutput": {
-      "triggeredIntent": {
-        "name": "Default Welcome Intent"
-      },
-      "currentPage": {
-        "name": "Start Page",
-        "flow": "Default Start Flow"
-      },
-      "textResponses": [ {
-        "text": [ "Buongiorno! Vuoi acquistare o rinnovare il tuo abbonamento?" ]
-      } ],
-      "currentFlow": {
-        "name": "Default Start Flow"
-      }
-    }
-  }, {
-    "userInput": {
-      "isWebhookEnabled": true,
-      "input": {
-        "text": {
-          "text": "acquistare"
+          "text": "acquista abbonamento"
         },
         "languageCode": "it"
       }
@@ -67,7 +42,7 @@
         "flow": "Default Start Flow"
       },
       "textResponses": [ {
-        "text": [ "mi puoi dire il tuo cognome?" ]
+        "text": [ "la tessera è 12345678 mi puoi dire il tuo cognome?" ]
       } ],
       "currentFlow": {
         "name": "Default Start Flow"
@@ -121,6 +96,8 @@
       },
       "textResponses": [ {
         "text": [ "Passa ad operatore" ]
+      }, {
+        "text": [ "Webhook PassaOperatore" ]
       } ],
       "currentFlow": {
         "name": "Default Start Flow"
@@ -128,11 +105,12 @@
     }
   } ],
   "creationTime": {
-    "seconds": 1737022714,
-    "nanos": 210196000
+    "seconds": 1737046150,
+    "nanos": 443307000
   },
   "testConfig": {
-    "flow": "Default Start Flow"
+    "flow": "Default Start Flow",
+    "page": "Start Page"
   },
   "languageCode": "it"
 }

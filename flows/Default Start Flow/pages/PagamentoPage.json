@@ -3,5 +3,13 @@
   "displayName": "PagamentoPage",
   "form": {
   
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Pagamento page" ]
+      },
+      "languageCode": "it"
+    } ]
   }
 }

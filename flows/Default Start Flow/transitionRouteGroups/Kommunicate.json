@@ -1,4 +1,20 @@
 {
   "name": "6abbc21b-abed-46e1-a7d2-1560aefe5ff3",
-  "displayName": "Kommunicate"
+  "displayName": "Kommunicate",
+  "transitionRoutes": [ {
+    "intent": "HandoffToHuman",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "message": "our agents will get back to you",
+          "metadata": {
+            "KM_ASSIGN_TO": ""
+          },
+          "platform": "kommunicate"
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "44646426-4cba-42eb-a2bb-746a3adbc699"
+  } ]
 }

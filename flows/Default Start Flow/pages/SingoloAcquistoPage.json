@@ -27,6 +27,29 @@
     "targetPage": "End Session",
     "name": "9067a8f0-71c0-4c2c-b2e8-8e0bf9e4a5c8"
   }, {
+    "intent": "HandoffToHuman",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "message": "our agents will get back to you",
+          "metadata": {
+            "KM_ASSIGN_TO": ""
+          },
+          "platform": "kommunicate"
+        },
+        "languageCode": "it"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "f83c037e-248b-4e5e-b7bc-fab65cef5480"
+  }, {
     "condition": "true",
     "triggerFulfillment": {
     

@@ -7,7 +7,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Ciao! Vuoi acquistare o rinnovare il tuo abbonamento?", "Buongiorno! Vuoi acquistare o rinnovare il tuo abbonamento?" ]
+          "text": [ "Ciao!  Cosa vuoi fare? acquistare o rinnovare il tuo abbonamento?", "Buongiorno!  Cosa vuoi fare? acquistare o rinnovare il tuo abbonamento?" ]
         },
         "languageCode": "it"
       } ]
@@ -20,12 +20,6 @@
     },
     "targetPage": "RaccogliNumTesseraPage",
     "name": "7368d946-3d8f-4a65-8a67-291297fc60ef"
-  }, {
-    "condition": "TRUE = TRUE",
-    "triggerFulfillment": {
-    
-    },
-    "name": "67fd5167-0cab-4a9f-8caf-9d6e299215d9"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

@@ -22,6 +22,21 @@
     } ]
   },
   "transitionRoutes": [ {
+    "intent": "HandoffToHuman",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "message": "our agents will get back to you",
+          "metadata": {
+            "KM_ASSIGN_TO": ""
+          },
+          "platform": "kommunicate"
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "52a81596-908a-4b5f-9c1b-e0287988756c"
+  }, {
     "condition": "$page.params.status = \"FINAL\"",
     "triggerFulfillment": {
     

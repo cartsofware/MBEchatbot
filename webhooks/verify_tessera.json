@@ -2,7 +2,7 @@
   "name": "ab067296-d4fc-40f3-a6d5-dd6d0fe8c15b",
   "displayName": "verify_tessera",
   "genericWebService": {
-    "uri": "https://8990-93-65-142-236.ngrok-free.app/verify_tessera",
+    "uri": "https://8339-93-65-142-236.ngrok-free.app/verify_tessera",
     "webhookType": "STANDARD",
     "serviceAgentAuth": "NONE"
   },

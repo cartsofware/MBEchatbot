@@ -24,7 +24,22 @@
     "triggerFulfillment": {
     
     },
-    "targetPage": "PassaOperatorePage",
+    "targetPage": "End Session",
     "name": "776ad2b9-2cc4-4da4-b086-ac1ff6d8258d"
+  }, {
+    "intent": "HandoffToHuman",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "message": "our agents will get back to you",
+          "metadata": {
+            "KM_ASSIGN_TO": ""
+          },
+          "platform": "kommunicate"
+        },
+        "languageCode": "it"
+      } ]
+    },
+    "name": "d5f87bd7-1d8f-4cca-a2e6-f2c2016b5372"
   } ]
 }
